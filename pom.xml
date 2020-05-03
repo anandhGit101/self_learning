@@ -43,7 +43,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-			<version>Greenwich.RELEASE</version>
+			<version>Hoxton.SR4</version>
 		</dependency>
 
 		<dependency>
