@@ -3,12 +3,6 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>com.springboot.justbooktickets</groupId>
-		<artifactId>jbt-starter-parent</artifactId>
-		<version>1.0.0</version>
-		<relativePath>../jbt-starter-parent</relativePath> <!-- lookup parent from repository -->
-	</parent>
 	<groupId>com.springboot.justbook.management</groupId>
 	<artifactId>JustBookTickets-Management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -21,12 +15,6 @@
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>com.springboot.justbook</groupId>
-			<artifactId>JustBookTickets-Core</artifactId>
-			<version>1.0.0</version>
-			<!-- <scope>system</scope> <systemPath>C:/Users/M1006601/201/JustBookTickets-Core/pom.xml</systemPath> -->
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
