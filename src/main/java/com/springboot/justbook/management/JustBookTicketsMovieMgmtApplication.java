@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @SpringBootApplication
 @CrossOrigin(origins = { "http://localhost:3000", "http://localhost:4200", "http://localhost:8899" })
-@EnableFeignClients
-@EnableDiscoveryClient
+//@EnableFeignClients
+//@EnableDiscoveryClient
 public class JustBookTicketsMovieMgmtApplication {
 
 	public static void main(String[] args) {
